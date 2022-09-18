@@ -21,4 +21,3 @@ let outputScreen = document.getElementById("output-screen");
         outputScreen.value= outputScreen.value.slice(0,-1)
     }
     
-
