@@ -8,7 +8,8 @@ let outputScreen = document.getElementById("output-screen");
     
     function Calculate() 
 {
-        try{
+        try
+        {
             outputScreen.value = eval(outputScreen.value);
         }
         catch(err)
