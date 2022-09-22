@@ -17,7 +17,8 @@ let outputScreen = document.getElementById("output-screen");
             alert("Invalid")
         }
     }
-    function Clear(){
+    function Clear()
+{
         outputScreen.value=""
     }
     function del(){
