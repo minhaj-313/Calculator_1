@@ -6,7 +6,8 @@ let outputScreen = document.getElementById("output-screen");
         outputScreen.value += num;
     }
     
-    function Calculate() {
+    function Calculate() 
+{
         try{
             outputScreen.value = eval(outputScreen.value);
         }
