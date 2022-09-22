@@ -22,7 +22,7 @@ let outputScreen = document.getElementById("output-screen");
         outputScreen.value=""
     }
     function del()
-{
+    {
         outputScreen.value= outputScreen.value.slice(0,-1)
     }
     
